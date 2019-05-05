@@ -17,9 +17,9 @@ Personal Linux configuration
     - [X] gcs: git commit --signoff
     - [X] glo: git log --oneline --grah --decorate
     - [X] gss: git status --short
-  - [ ] luanch scripts
-    - [ ] anniversary
-    - [ ] weight
+  - [X] launch scripts
+    - [X] anniversary
+    - [X] weight
 - [ ] vim
   - [ ] vimrc
     - [ ] background=dark

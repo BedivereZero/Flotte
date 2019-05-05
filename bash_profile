@@ -14,3 +14,6 @@ fi
 PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/go/bin
 
 export PATH
+
+anniversary.py
+weight.py
