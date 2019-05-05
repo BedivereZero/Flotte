@@ -1,4 +1,5 @@
 # Flotte
+
 Personal Linux configuration
 
 ## Custom configuration
@@ -8,7 +9,7 @@ Personal Linux configuration
   - [ ]  public keys
   - [ ]  disable password authorization
 - [ ]  bash
-  - [ ]  commad prompt
+  - [X]  commad prompt
   - [ ]  commad alias
     - [ ]  git add --update
     - [ ]  git commit --signoff --message
