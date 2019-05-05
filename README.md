@@ -10,11 +10,13 @@ Personal Linux configuration
   - [ ]  disable password authorization
 - [ ]  bash
   - [X]  commad prompt
-  - [ ]  commad alias
-    - [ ]  git add --update
-    - [ ]  git commit --signoff --message
-    - [ ]  git log --oneline --grah --decorate
-    - [ ]  git status --short
+  - [X]  commad alias
+    - [X]  gau: git add --update
+    - [X]  gca: git commit --amend
+    - [X]  gcm: git commit --signoff --message
+    - [X]  gcs: git commit --signoff
+    - [X]  glo: git log --oneline --grah --decorate
+    - [X]  gss: git status --short
   - [ ]  luanch scripts
     - [ ]  anniversary
     - [ ]  weight
