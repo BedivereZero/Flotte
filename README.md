@@ -22,18 +22,19 @@ Personal Linux configuration
     - [X] weight
 - [ ] vim
   - [ ] vimrc
-    - [ ] background=dark
-    - [ ] backspace=indent,eol,start
-    - [ ] list # what is this ?
-    - [ ] listcharts=tab>-,trail:-,nbsp:%
-    - [ ] number
-    - [ ] colorcolumn=80,100
-    - [ ] foldmethod=indent # what is this, too ?
+    - [X] background=dark
+    - [X] backspace=indent,eol,start
+    - [X] list # what is this ?
+    - [X] listchars=tab:>-,trail:-,nbsp:%
+    - [X] number
+    - [X] colorcolumn=80,100
+    - [X] foldmethod=indent # what is this, too ?
     - [ ] autocmd
       - [ ] F5: run
       - [ ] F6: pylint
+    - [ ] syntax on
   - [ ] .vim
-    - [ ] filetype: groovy, thrift
+    - [ ] filetype: groovy, thrift, markdown, python
     - [ ] scripts
       - [ ] did_filetype: groovy
 - [ ] time sync: ntp.eisoo.com
