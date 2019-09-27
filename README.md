@@ -4,11 +4,7 @@ Personal Linux configuration
 
 ## Custom configuration
 
-- [ ] ssh
-  - [ ] generate ssh key
-  - [ ] public keys
-  - [ ] disable password authorization
-- [ ] bash
+- [X] bash
   - [X] commad prompt
   - [X] commad alias
     - [X] gau: git add --update
@@ -30,18 +26,10 @@ Personal Linux configuration
     - [X] colorcolumn=80,100
     - [X] foldmethod=indent # what is this, too ?
     - [ ] autocmd
-      - [ ] F5: run
+      - [X] F5: run
       - [ ] F6: pylint
-    - [ ] syntax on
-  - [ ] .vim
-    - [ ] filetype: groovy, thrift, markdown, python
-    - [ ] scripts
-      - [ ] did_filetype: groovy
-- [ ] time sync: ntp.eisoo.com
-- [ ] zabbix
-  - [ ] host on zabbix
-  - [ ] zabbix-agent
-  - [ ] zabbix-server
-  - [ ] database
-- [ ] datbase
-  - [ ] zabbix
+    - [X] syntax on
+  - [X] .vim
+    - [X] filetype: groovy, thrift, markdown, python
+    - [X] scripts
+      - [X] did_filetype: groovy
