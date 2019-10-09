@@ -1,0 +1,18 @@
+#!/usr/bin/python
+
+from datetime import date
+
+WEIGHT_FROM = 81.1
+WEIGHT_TILL = 70.0
+DATE_FROM = date(2019, 10, 8)
+DATE_TILL = date(2019, 11, 1)
+WEIGHT_ACTUAL = 81.1
+
+WEIGHT_EXPECT = (WEIGHT_FROM - WEIGHT_TILL) \
+    / (DATE_FROM - DATE_TILL).days ** 2 \
+    * (date.today() - DATE_TILL).days ** 2 \
+    + WEIGHT_TILL
+
+print('WEIGHT_EXPECT: {:0.1f}'.format(WEIGHT_EXPECT))
+print('WEIGHT_ACTUAL: {:0.1f}'.format(WEIGHT_ACTUAL))
+print('WEIGHT_DIFF:   {:0.1f}'.format(WEIGHT_ACTUAL - WEIGHT_EXPECT)
